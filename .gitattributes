@@ -1,2 +1,2 @@
 # Force GitHub to recognize .ipynb files as Jupyter Notebooks
-*.ipynb linguist-language=Jupyter-Notebook
+*.ipynb linguist-language=Jupyter-Notebook  
