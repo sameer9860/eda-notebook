@@ -8,27 +8,42 @@ The project currently focuses on understanding the structure of the Titanic data
 
 ## 📂 Project Structure
 
-- `data.csv`: The primary dataset containing passenger information (Name, Age, Class, Survival status, etc.).
-- `eda.ipynb`: A Jupyter Notebook containing the data exploration logic using `pandas`.
-- `venv/`: Local Python virtual environment for dependency management.
+- `data.csv`: The primary dataset containing passenger information.
+- `eda.ipynb`: A Jupyter Notebook containing the data exploration and visualizations.
+- `requirements.txt`: List of dependencies required to run the project.
 
 ## 🚀 Getting Started
 
-### Prerequisites
+Follow these steps to set up the project locally:
 
-Ensure you have Python installed. It is recommended to use a virtual environment.
+### 1. Create a Virtual Environment
+It is recommended to use a virtual environment to keep dependencies isolated.
+```bash
+python -m venv venv
+```
 
-### Installation
+### 2. Activate the Virtual Environment
+- **Windows**:
+  ```bash
+  venv\Scripts\activate
+  ```
+- **macOS/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
 
-1. Clone the repository (if applicable) or navigate to the project directory.
-2. Install the required dependencies:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
-   ```
+### 3. Install Dependencies
+Install the required libraries using the provided `requirements.txt` file:
+```bash
+pip install -r requirements.txt
+```
 
-### Running the Analysis
-
-Open the `eda.ipynb` notebook in your preferred environment (Jupyter Lab, VS Code, etc.) to view the analysis.
+### 4. Running the Analysis
+Once the dependencies are installed, you can launch Jupyter Notebook to explore the analysis:
+```bash
+jupyter notebook
+```
+Then, open `eda.ipynb` from the Jupyter interface.
 
 ## 📊 Dataset Description
 
